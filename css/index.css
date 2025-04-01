@@ -45,3 +45,17 @@ footer{
     height: 10vh;
     background-color: blue;
 }
+
+/* Tablets >= 768 */
+@media (min-width: 768px){
+    nav{
+        background-color: green;
+    }
+}
+
+/* Desktops >= 992 */
+@media (min-width: 992px){
+    nav{
+        background-color: orange;
+    }
+}
