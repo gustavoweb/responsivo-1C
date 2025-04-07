@@ -43,6 +43,40 @@ section{
     height: 65vh;
     background-color: #fff;
 }
+section article{
+    width: 100%;
+    height: auto;
+}
+.largura{
+    width: 85%;
+    float: left;
+    margin-left: 7.5%;
+    margin-top: 2vh;
+    border: 0;
+    outline: none;
+    background-color: #013068;
+    color: #fff;
+    border-radius: 10px;
+    text-indent: 1%;
+}
+section article input{
+    height: 3.5vh;
+}
+section article select{
+    height: 3.5vh;
+}
+section article textarea{
+    height: 9vh;
+}
+section article button{
+    height: 4vh;
+    background-color: #FFD400 !important;
+    color:#013068 !important;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1em;
+}
 footer{
     width: 100%;
     height: 10vh;
