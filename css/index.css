@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-color: #ccc;
+    /* background-color: #ccc; */
 }
 main{
     width: 100%;
@@ -37,15 +37,31 @@ nav{
 }
 nav img{
     height: 2.8vh;
+    cursor: pointer;
+}
+#menu{
+    display: none;
+}
+
+nav ul{
+    display: none;
+    list-style: none;
 }
 section{
     width: 100%;
-    height: 65vh;
+    height: auto;
+    min-height: 65vh;
     background-color: #fff;
+    float: left;
+    padding-bottom: 3vh;
 }
 section article{
     width: 100%;
     height: auto;
+}
+section article img{
+    height: 23vh;
+    margin-left: 20%;
 }
 section article h1{
     font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
@@ -102,8 +118,18 @@ section article button{
 }
 footer{
     width: 100%;
-    height: 10vh;
-    background-color: blue;
+    height: 8vh;
+    background-color: #fff;
+    float: left;
+}
+footer small{
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-weight: lighter;
+    text-align: center;
+    color: #013068;
+    line-height: 8vh;
+    width: 100%;
+    float: left;
 }
 
 /* Tablets >= 768 */
